@@ -1,0 +1,8 @@
+[Unit]
+Description=Minecraft Service
+After=default.target
+[Service]
+WorkingDirectory=/minecraft
+Type=simple
+User=ec2-user
+ExecStart=/usr/bin/java -jar /minecraft/minecraft_server.1.15.2.jar

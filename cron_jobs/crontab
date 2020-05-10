@@ -1,0 +1,7 @@
+# crontab -e
+SHELL=/bin/bash
+MAILTO=no@thanks.please
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+
+0 * * * * /./autobackup.sh #hourly 
+0 */12 * * * /./dailyworldbackup.sh #twice daily
