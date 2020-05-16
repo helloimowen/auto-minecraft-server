@@ -9,7 +9,7 @@ cd /minecraft
 aws s3 cp s3://owen-sanders-minecraft/forge-1.15.2-31.1.0-installer.jar /minecraft/forge-1.15.2-31.1.0-installer.jar
 java -jar forge-1.15.2-31.1.0-installer.jar --installServer
 echo 'eula=true' > eula.txt
-sudo aws s3 cp s3://owen-sanders-minecraft/minecraft.service /etc/systemd/system/minecraft.service
+sudo aws s3 cp s3://owen-sanders-minecraft/code/maser/minecraft_server_admin/server_files/minecraft.service /etc/systemd/system/minecraft.service
 sudo systemctl daemon-reload
 sudo service minecraft start
 
