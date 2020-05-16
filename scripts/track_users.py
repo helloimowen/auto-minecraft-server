@@ -16,7 +16,8 @@ current_time = now.strftime("%Y-%m-%d %H:%M:%S") - timedelta(days = 1)
 
 
 stream = os.popen('journalctl --output=cat --since="' + current_time + '" -a -u  minecraft')
-output = stream.read()
+output = stream.read().splitlines()
+
 
 print(output)
 

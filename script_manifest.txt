@@ -1,0 +1,1 @@
+scripts/install-python-environment.sh scripts/rollback-server.sh cron_jobs/autobackup.sh cron_jobs/dailyworldbackup.sh cron_jobs/page.sh
