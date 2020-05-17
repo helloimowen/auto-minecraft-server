@@ -21,7 +21,7 @@ sudo chown -R ec2-user:ec2-user /code
 sudo aws s3 sync s3://owen-sanders-minecraft/code/master/ /code 
 cd /code
 
-chmod +x `cat /minecraft_server_admin/script_manifest.txt`
+chmod +x `cat script_manifest.txt`
 
 
 # install pyenv for python scripts
