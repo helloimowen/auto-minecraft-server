@@ -12,3 +12,7 @@ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nf
 . ~/.bash_profile
 
 pyenv install 3.8.2
+
+pyenv global 3.8.2
+
+pip install -r /code/requirements.txt

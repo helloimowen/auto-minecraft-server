@@ -21,6 +21,7 @@ cd ..
 sudo mkdir /code
 sudo chown -R ec2-user:ec2-user /code
 sudo aws s3 sync s3://owen-sanders-minecraft/code/master/ /code 
+sudo chmod -R +x  /code
 cd /code
 
 chmod +x `cat /minecraft_server_admin/script_manifest.txt`
