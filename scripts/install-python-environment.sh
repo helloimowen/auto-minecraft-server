@@ -16,4 +16,4 @@ pyenv install 3.8.2
 
 pyenv global 3.8.2
 
-pip install -r /code/requirements.txt
+pip install -r requirements.txt
