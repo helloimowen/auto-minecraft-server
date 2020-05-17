@@ -1,0 +1,12 @@
+-- constants about my current environment. 
+-- minecraft details
+minecraft_version: 1.15.2
+forge_version: 1.15.2-31.1.0
+
+
+-- server details 
+
+region: us-east-1
+instance: t2.medium
+s3_bucket: owen-sanders-minecraft
+spot_bid_max: 0.03
